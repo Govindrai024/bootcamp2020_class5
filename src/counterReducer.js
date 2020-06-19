@@ -1,3 +1,5 @@
+import React from 'react';
+
 const counterReducer = (state, action) => {
     switch (action) {
         case 'INCREMENT':
