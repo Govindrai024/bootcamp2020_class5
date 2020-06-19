@@ -17,14 +17,13 @@ function App() {
         <CounterContext.Provider value={countSate}>
 
           <div>
-            <Parent  />
+            <Parent/>
           </div>
 
         </CounterContext.Provider>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
-//
